@@ -1,11 +1,11 @@
-#1. Express:
-npm install express
+# 1. Express:
+## npm install express
 
-#2. Axios:
-npm install axios
+# 2. Axios:
+## npm install axios
 
-#3. Mongoose:
-npm install mongoose
+# 3. Mongoose:
+## npm install mongoose
 
-#Single command to install all:
-npm install express axios mongoose                                  
+# Single command to install all:
+## npm install express axios mongoose                                  
