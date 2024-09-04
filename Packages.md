@@ -10,5 +10,8 @@
 # 4. Nodemon:
 ## npm install nodemon
 
+# 4. Prettier:
+## npm install prettier
+
 # Single command to install all:
-## npm install express axios mongoose nodemon
+## npm install express axios mongoose nodemon prettier
