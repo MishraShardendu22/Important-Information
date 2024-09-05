@@ -19,5 +19,8 @@
 # 4. Cookies:
 ## npm i cookie-parser
 
+# 4. Cors:
+## npm i cors
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors
