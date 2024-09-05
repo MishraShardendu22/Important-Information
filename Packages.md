@@ -34,5 +34,8 @@
 # 4. multer:
 ## npm i multer
 
+# 4. cloudinary:
+## npm i cloudinary
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt jsonwebtoken multer
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt jsonwebtoken multer cloudinary
