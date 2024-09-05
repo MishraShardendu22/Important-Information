@@ -25,5 +25,8 @@
 # 4. Cors:
 ## npm i mongoose-aggregate-paginate-v2
 
+# 4. bcrypt:
+## npm i bcrypt
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt
