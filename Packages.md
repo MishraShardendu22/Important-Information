@@ -10,34 +10,38 @@
 # 4. Nodemon:
 ## npm install nodemon
 
-# 4. Prettier:
+# 5. Prettier:
 ## npm install prettier
 
-# 4. Dotenv:
+# 6. Dotenv:
 ## npm install dotenv
 
-# 4. Cookies:
+# 7. Cookies:
 ## npm i cookie-parser
 
-# 4. Cors:
+# 8. Cors:
 ## npm i cors
 
-# 4. Cors:
+# 9. Cors:
 ## npm i mongoose-aggregate-paginate-v2
 
-# 4. bcrypt:
+# 10. bcrypt:
 ## npm i bcrypt
 
-# 4. jwt:
+# 11. jwt:
 ## npm i jsonwebtoken
 
-# 4. multer:
+# 12. multer:
 ## npm i multer
 
-# 4. cloudinary:
+# 13. cloudinary:
 ## npm i cloudinary
 
-npm i nodemailer react-hot-toast
+# 14. nodemailer:
+## npm i nodemailer
+
+# 15. react-hot-toast:
+## npm i react-hot-toast
 
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast
