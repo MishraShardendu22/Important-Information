@@ -60,3 +60,19 @@
 
 # Single command to install all:
 ## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast
+
+
+
+# For Fun - ( loll )
+## npm i cowsay (maybe npm i -g cowsay)
+cowsay "Shardendu Mishra will get to Marry Shivika and they'll live togther forever and ever!!"
+ __________________________________________
+/ Shardendu Mishra will get to Marry Sssss \
+| ss and they'll live togther forever and  |
+\ ever!!                                   /
+ ------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
