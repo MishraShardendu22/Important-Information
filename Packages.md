@@ -58,8 +58,12 @@
 ## npm i react-hot-toast
 ### React-hot-toast: A library for displaying customizable and accessible toast notifications in React applications.
 
+# 15. zod:
+## npm i zod
+### Zod is a TypeScript-first schema declaration and validation library. It allows you to define schemas for your data and automatically perform validation and type inference based on those schemas.
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod
 
 
 
