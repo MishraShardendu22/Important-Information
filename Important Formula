@@ -1,0 +1,10 @@
+# Formulae 
+
+## Minimum Time to swap 2 element :
+1.) a = (a * b) / (a = b)
+2.) a = a + b 
+    b = a - b
+    a = a - b
+
+## Minimum Tim to calculate nuumber of digits :
+1.) int NumberOfDigit = ceil(log(num))
