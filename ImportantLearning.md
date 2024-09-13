@@ -241,3 +241,127 @@ export function middleware(request: NextRequest) {
 - **Next.js**: Middleware only takes `NextRequest`, and you handle the response by returning `NextResponse` without `req`, `res`, or `next`.
 
 Each framework has its own middleware structure, and it’s important to use the correct pattern for each one.
+
+
+
+
+# Handling API Requests in Next.js: A Comprehensive Guide
+
+In modern web development, handling different types of HTTP requests efficiently is crucial. This article explores how to manage GET and POST requests in a Next.js API route, with a focus on username verification.
+
+## The Legacy Approach
+
+In the past, particularly with the Pages Router in Next.js, it was common to see code that checked the request method within a single handler:
+
+```javascript
+if(request.method !== "GET"){ 
+    return Response.json( 
+        { 
+            success: false, 
+            message : "This Method Is Not Allowed !!", 
+        }, 
+        { 
+            status: 405, 
+        } 
+    ) 
+}
+```
+
+However, this approach is no longer recommended in newer Next.js versions, especially with the App Router. GET and POST requests are typically handled separately for better organization and clarity.
+A Modern Approach: Unified Request Handling
+For scenarios where you need to handle multiple request types in a single function, here's a more comprehensive approach:
+
+```javascript
+export async function handleRequest(request: Request) { 
+    const method = request.method;  
+    if (method === "POST") { 
+        return Response.json( 
+            { 
+                success: false, 
+                message: "This Method Is Not Allowed !!", 
+            }, 
+            { 
+                status: 405, 
+            } 
+        ); 
+    } 
+ 
+    if (method === "GET") { 
+        await dbConnect(); 
+        try { 
+            const { searchParams } = new URL(request.url); 
+            const queryParam = { username: searchParams.get("username") }; 
+ 
+            const result = UserNameQueryShcema.safeParse(queryParam); 
+ 
+            if (!result.success) { 
+                const usernameErrors = result.error.format().username?._errors || []; 
+                return Response.json( 
+                    { 
+                        success: false, 
+                        message: usernameErrors.length > 0 
+                            ? usernameErrors.join(", ") 
+                            : "Invalid query parameters", 
+                    }, 
+                    { status: 400 } 
+                ); 
+            } 
+ 
+            const { username } = result.data; 
+            const existingUserVerified = await UserModel.findOne({ 
+                username, 
+                isVerified: true, 
+            }); 
+ 
+            if (existingUserVerified) { 
+                return Response.json( 
+                    { 
+                        success: false, 
+                        message: "Username already exists and is Verified, Please try another username !!", 
+                    }, 
+                    { status: 401 } 
+                ); 
+            } 
+ 
+            return Response.json( 
+                { 
+                    success: true, 
+                    message: "Username is unique", 
+                }, 
+                { status: 200 } 
+            ); 
+        } catch (err) { 
+            console.log("There was an Error Checking the UserName", err); 
+            return Response.json( 
+                { 
+                    success: false, 
+                    message: "Something went wrong", 
+                }, 
+                { status: 500 } 
+            ); 
+        } 
+    } 
+}
+```
+
+This function handles both GET and POST requests:
+
+It first checks the request method.
+For POST requests, it returns a "Method Not Allowed" response.
+For GET requests, it performs username verification:
+
+Connects to the database
+Parses and validates the username from the query parameters
+Checks if the username already exists and is verified
+Returns appropriate responses based on the results
+
+
+
+Key Features
+
+Method Differentiation: The function distinguishes between GET and POST requests, allowing for method-specific handling.
+
+Error Handling: It includes comprehensive error handling, including validation errors and database errors.
+
+## Conclusion (TLDR)
+This would work in old system in case of pages router (legacy system) but after updation it doesen't work.
