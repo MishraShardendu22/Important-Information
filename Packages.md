@@ -70,6 +70,10 @@
 ## npm i next-auth
 ### NextAuth.js is an open-source authentication library designed for Next.js applications. It simplifies adding authentication and authorization to your app by supporting multiple authentication providers and strategies.
 
+# 17. useHook.ts :
+## npm install usehooks-ts
+### NextAuth.js is an open-source authentication library designed for Next.js applications. It simplifies adding authentication and authorization to your app by supporting multiple authentication providers and strategies.
+
 # Single command to install all:
 ## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth
 
@@ -77,11 +81,11 @@
 
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
-cowsay "Shardendu Mishra will get to Marry Sssssss and they'll live togther forever and ever!!"
+cowsay "Shardendu Mishra will get to Marry S____a and they'll live togther forever and ever!!"
 
 ```
     __________________________________________
-   / Shardendu Mishra will get to Marry Sssss \
+   / Shardendu Mishra will get to Marry S____a\
    | ss and they'll live togther forever and  |
    \ ever!!                                   /
     __________________________________________
