@@ -70,14 +70,16 @@
 ## npm i next-auth
 ### NextAuth.js is an open-source authentication library designed for Next.js applications. It simplifies adding authentication and authorization to your app by supporting multiple authentication providers and strategies.
 
-# 17. useHook.ts :
+# 18. useHook.ts :
 ## npm install usehooks-ts
 ### NextAuth.js is an open-source authentication library designed for Next.js applications. It simplifies adding authentication and authorization to your app by supporting multiple authentication providers and strategies.
 
+# 19. useHook.ts :
+## npm install embla-carousel-autoplay
+### embla-carousel-autoplay is a plugin for Embla Carousel that adds autoplay functionality
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth sehooks-ts
-
-
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth sehooks-ts embla-carousel-autoplay
 
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
