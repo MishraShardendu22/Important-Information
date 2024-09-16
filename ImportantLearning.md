@@ -365,3 +365,42 @@ Error Handling: It includes comprehensive error handling, including validation e
 
 ## Conclusion (TLDR)
 This would work in old system in case of pages router (legacy system) but after updation it doesen't work.
+
+
+# HTTP METHODS : 
+
+1. **OPTIONS**:
+   - **Scenario**: You’re at a restaurant and you want to know what dishes the chef can prepare. You ask the waiter about the available options (methods).
+   - **HTTP Equivalent**: An OPTIONS request helps you understand what methods (e.g., GET, POST) are allowed for a particular resource.
+
+2. **GET**:
+   - **Scenario**: You decide what to order based on the menu. You ask for the details of a dish (e.g., the description and price).
+   - **HTTP Equivalent**: A GET request fetches the details of a resource without changing anything.
+
+3. **POST**:
+   - **Scenario**: You place an order for a new dish. You’re adding something new to the menu.
+   - **HTTP Equivalent**: A POST request submits data to create a new resource.
+
+4. **PUT**:
+   - **Scenario**: You don’t like the description of the dish you ordered, so you ask the waiter to update the entire description.
+   - **HTTP Equivalent**: A PUT request replaces the entire resource with the provided data.
+
+5. **PATCH**:
+   - **Scenario**: You want to change just the price of the dish you ordered without altering its description.
+   - **HTTP Equivalent**: A PATCH request updates only specific parts of a resource.
+
+6. **DELETE**:
+   - **Scenario**: You decide to remove a dish from the menu entirely.
+   - **HTTP Equivalent**: A DELETE request removes a specified resource.
+
+7. **HEAD**:
+   - **Scenario**: You want to check if the dish you ordered is still available, but you don’t need all the details—just the fact that it’s still on the menu.
+   - **HTTP Equivalent**: A HEAD request checks the headers (metadata) of a resource without fetching the full data.
+
+8. **TRACE**:
+   - **Scenario**: You suspect that someone might be altering your orders, so you ask to see exactly what the waiter wrote down.
+   - **HTTP Equivalent**: A TRACE request echoes back the received request, useful for debugging.
+
+9. **CONNECT**:
+   - **Scenario**: You want a private room in the restaurant where you can discuss sensitive matters without anyone listening in.
+   - **HTTP Equivalent**: A CONNECT request establishes a tunnel for private, encrypted communication, like setting up an SSL connection.
