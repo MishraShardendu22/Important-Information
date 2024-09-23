@@ -83,12 +83,24 @@
 ### Socket.IO is a JavaScript library used for real-time, bidirectional communication between clients and servers. It works over WebSockets but provides fallbacks for older browsers. It is widely used in building chat applications, live notifications, and real-time collaboration features.
 
 # 21. Zustand :
-## npm install zustand
+## npm install zustand 
 ### Zustand is a small, fast, and scalable state management library for React applications. It allows you to manage global and local state without the boilerplate of other state management solutions like Redux. Zustand uses simple and intuitive API, supporting both primitive and complex states with minimal re-renders, and is highly flexible, allowing for features like persistence and middleware integration. It's ideal when you need a lightweight and easy-to-use alternative for state management.
+
+#22. daisyui :
+## npm i daisyui
+### DaisyUI is a component library for Tailwind CSS that provides a set of pre-designed UI components. It simplifies the process of building beautiful, responsive user interfaces by offering customizable and reusable components like buttons, cards, modals, and forms.
+
+# 23. Clerk
+## npm install @clerk/nextjs 
+### Clerk is an authentication solution that simplifies user management and authentication for web applications built with Next.js. It provides easy integration with various login methods (like email and social logins) and offers features such as user profiles, sessions, and security measures, making it ideal for building secure applications quickly.
+
+# 24. Prisma
+## npm install prisma typescript ts-node @types/node --save-dev
+### Prisma is an open-source ORM that makes database access easy and type-safe. It provides a simple and intuitive API for interacting with your database, supporting various databases like PostgreSQL, MySQL, and SQLite. With Prisma, you can generate migrations and manage your database schema efficiently.
 
 
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth sehooks-ts embla-carousel-autoplay zustand socket.io
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth sehooks-ts embla-carousel-autoplay zustand socket.io @clerk/nextjs prisma typescript ts-node @types/node --save-dev daisyui
 
 
 # For Fun - ( lol )
