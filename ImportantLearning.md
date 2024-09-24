@@ -1,3 +1,20 @@
+# Learning
+
+## React Learnings
+- **`useState`**: Manages state in a functional component (like tracking form input or toggling between themes).
+  
+- **`useEffect`**: Handles side effects, like fetching data, setting up listeners, or updating the page title after a render.
+
+- **`useRef`**: Accesses DOM elements or persists values across renders without triggering a re-render (like focusing an input field).
+
+### Real Example:
+On a login page:
+- `useState` tracks the username and password inputs.
+- `useEffect` fetches user data once the component loads.
+- `useRef` focuses the cursor on the username input when the page loads.
+
+Example: On Twitter's login page, `useState` would manage the input fields, `useEffect` would fetch user session data, and `useRef` could focus on the username input when the page loads.
+
 ## Project Name - NextJS Auth
 
 ## Suggestions - 
