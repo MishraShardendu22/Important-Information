@@ -1,19 +1,28 @@
 # Learning
 
 ## React Learnings
-- **`useState`**: Manages state in a functional component (like tracking form input or toggling between themes), **basically UI updation**
-  
-- **`useEffect`**: Handles side effects, like fetching data, setting up listeners, or updating the page title after a render.
+Here’s the corrected version:
 
-- **`useRef`**: Accesses DOM elements or persists values across renders without triggering a re-render (like focusing an input field).
+---
 
-### Real Example:
-On a login page:
-- `useState` tracks the username and password inputs.
-- `useEffect` fetches user data once the component loads.
-- `useRef` focuses the cursor on the username input when the page loads.
+`useState` is a React hook that manages **UI updates**. It is primarily used to show real-time updates of variables injected into the front-end.
 
-Example: On Twitter's login page, `useState` would manage the input fields, `useEffect` would fetch user session data, and `useRef` could focus on the username input when the page loads.
+`useEffect` is used to trigger actions, such as refreshing the page or fetching data, when a certain field or dependency changes.
+
+`useCallback` is a hook that helps optimize the performance by memoizing functions, preventing them from being recreated on every re-render.
+
+**Examples:**
+- `useState` can be used to handle a variable like a name in a form.
+- `useEffect` can be used to perform an action (like submitting the form) when a specific field is updated.
+- `useCallback` is used to optimize the page by memoizing a function so it’s not re-created on every render.
+
+---
+
+
+Corrections:
+1. `useState` is not just for UI updates but also state management.
+2. `useEffect` doesn't refresh the page directly but triggers actions when dependencies change.
+3. `useCallback` memoizes functions, not the state itself.
 
 ## Project Name - NextJS Auth
 
