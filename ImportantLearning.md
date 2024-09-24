@@ -1,7 +1,7 @@
 # Learning
 
 ## React Learnings
-- **`useState`**: Manages state in a functional component (like tracking form input or toggling between themes).
+- **`useState`**: Manages state in a functional component (like tracking form input or toggling between themes), **basically UI updation**
   
 - **`useEffect`**: Handles side effects, like fetching data, setting up listeners, or updating the page title after a render.
 
