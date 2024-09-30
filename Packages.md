@@ -136,6 +136,10 @@
 ## npm install graphql express-graphql
 ### GraphQL is a query language for APIs that allows clients to request only the data they need. `express-graphql` is a middleware that integrates GraphQL with Express, enabling you to create a GraphQL server easily and handle queries and mutations in your application.
 
+# 29. Colors:
+## npm install colors
+### `colors` is a package that allows you to style your console output in Node.js applications. It provides various methods to change the text color and background color of terminal messages, making it easier to visualize logs, errors, and other output in a colorful and engaging way.
+
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
 cowsay "Shardendu Mishra will get to Marry S____a and they'll live togther forever and ever!!"
