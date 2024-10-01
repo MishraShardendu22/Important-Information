@@ -140,6 +140,14 @@
 ## npm install colors
 ### `colors` is a package that allows you to style your console output in Node.js applications. It provides various methods to change the text color and background color of terminal messages, making it easier to visualize logs, errors, and other output in a colorful and engaging way.
 
+# 30. GraphQL:
+## npm install graphql
+### GraphQL: A query language for APIs that allows clients to request specific data, enabling efficient and flexible data fetching compared to REST.
+
+# 31. Apollo Client:
+## npm install @apollo/client
+### Apollo Client: A state management library for interacting with GraphQL APIs, handling data fetching, caching, and UI updates efficiently in React apps.
+
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
 cowsay "Shardendu Mishra will get to Marry S____a and they'll live togther forever and ever!!"
