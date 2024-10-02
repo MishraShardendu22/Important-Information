@@ -156,6 +156,34 @@
 ## npm install bootstrap
 ### Bootstrap: A popular CSS framework for building responsive and mobile-first websites, providing pre-built components, utilities, and styles to streamline web development.
 
+# 33. @react-three/fiber:
+## npm install --legacy-peer-deps @react-three/fiber
+### A React renderer for three.js, bringing the power of three.js to React to create 3D experiences in your apps.
+
+# 34. @react-three/drei:
+## npm install --legacy-peer-deps @react-three/drei
+### A growing collection of useful helpers and abstractions for @react-three/fiber to simplify building complex 3D scenes.
+
+# 35. maath:
+## npm install --legacy-peer-deps maath
+### A math and utility library for 3D and canvas-based applications, providing geometry, interpolation, and other useful helpers for @react-three/fiber.
+
+# 36. react-tilt:
+## npm install --legacy-peer-deps react-tilt
+### A lightweight React component for creating interactive, animated 3D tilt effects in your UI.
+
+# 37. react-vertical-timeline-component:
+## npm install --legacy-peer-deps react-vertical-timeline-component
+### A React component that allows you to create vertical timelines in your applications with ease and flexibility.
+
+# 38. framer-motion:
+## npm install --legacy-peer-deps framer-motion
+### A powerful motion library for React that enables declarative animations, gestures, and transitions to create dynamic user interfaces.
+
+# 39. react-router-dom:
+## npm install --legacy-peer-deps react-router-dom
+### A complete routing solution for React that helps manage navigation and view rendering based on URL paths.
+
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
 cowsay "Shardendu Mishra will get to Marry S____a and they'll live togther forever and ever!!"
