@@ -58,7 +58,6 @@ docker run -d ^
   -p 3000:8081 ^
   -e INTDB_ROOT_USERNAME=admin ^
   -e INTDB_ROOT_PASSWORD=admin_pass ^
-  -e INTDB_SERVER=mongodb_container ^
   mongo
 ```
 
@@ -73,7 +72,5 @@ docker run -d ^
 - `-e INTDB_ROOT_USERNAME=admin`: This sets an environment variable (`INTDB_ROOT_USERNAME`) inside the container, specifying the root username for the MongoDB instance as `admin`.
 
 - `-e INTDB_ROOT_PASSWORD=admin_pass`: This sets another environment variable (`INTDB_ROOT_PASSWORD`) for the MongoDB instance, defining the root password as `admin_pass`.
-
-- `-e INTDB_SERVER=mongodb_container`: This sets an environment variable (`INTDB_SERVER`) to specify the server name as `mongodb_container`, which is often used for internal configuration.
-
+ 
 - `mongo`: This is the name of the Docker image to use. In this case, it pulls the official MongoDB image from Docker Hub and runs it.
