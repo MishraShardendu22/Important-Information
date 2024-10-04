@@ -6,9 +6,13 @@
 
 
 # Breakdown of : 
-`docker run --name postgres-container -e POSTGRES_PASSWORD=yourpassword -d -p 3001:5432 postgres:14`
-`docker run --name mongo-container -d -p 3002:27017 mongo:6.0`
+```bash
+docker run --name postgres-container -e POSTGRES_PASSWORD=yourpassword -d -p 3001:5432 postgres:14
+```
 
+```bash
+docker run --name mongo-container -d -p 3002:27017 mongo:6.0
+```
 
 ### PostgreSQL
 
