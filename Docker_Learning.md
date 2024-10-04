@@ -62,30 +62,18 @@ docker run -d ^
   mongo
 ```
 
+- `docker run -d`: This command starts a new container in detached mode (in the background). The `-d` flag ensures that the container runs independently of the terminal.
 
-1. **`docker run -d`**: 
-   - This command starts a new container in detached mode (`-d`), meaning it runs in the background.
+- `--name mongodb_container`: This option assigns a name (`mongodb_container`) to the container. You can use this name to refer to the container later instead of using its container ID.
 
-2. **`--name mongodb_container`**: 
-   - This assigns the name `mongodb_container` to the container, making it easier to reference later.
+- `--net mongo_network`: This specifies the network to which the container will be connected. In this case, it connects the container to a Docker network named `mongo_network`. 
 
-3. **`--net mongo_network`**: 
-   - This connects the container to a Docker network called `mongo_network`. This is useful for container communication.
+- `-p 3000:8081`: This flag maps the container’s port `8081` to port `3000` on the host machine. Any traffic sent to `localhost:3000` on your host will be forwarded to the container's port `8081`.
 
-4. **`-p 3000:8081`**: 
-   - This maps port `8081` of the container to port `3000` on the host machine. You can access MongoDB through port `3000` on your local machine.
+- `-e INTDB_ROOT_USERNAME=admin`: This sets an environment variable (`INTDB_ROOT_USERNAME`) inside the container, specifying the root username for the MongoDB instance as `admin`.
 
-5. **`-e ME_CONFIG_MONGODB_ADMINUSERNAME=admin`**: 
-   - This sets an environment variable for the MongoDB admin username. In this case, it’s set to `admin`.
+- `-e INTDB_ROOT_PASSWORD=admin_pass`: This sets another environment variable (`INTDB_ROOT_PASSWORD`) for the MongoDB instance, defining the root password as `admin_pass`.
 
-6. **`-e ME_CONFIG_MONGODB_ADMINPASSWORD=admin_pass`**: 
-   - This sets another environment variable for the admin password, which is `admin_pass`.
+- `-e INTDB_SERVER=mongodb_container`: This sets an environment variable (`INTDB_SERVER`) to specify the server name as `mongodb_container`, which is often used for internal configuration.
 
-7. **`-e ME_CONFIG_MONGODB_SERVER=mongodb_container`**: 
-   - This specifies the MongoDB server address, which is the name of the container itself (`mongodb_container`).
-
-8. **`mongo`**: 
-   - This specifies the image to use, in this case, the official MongoDB image.
-
-### Summary:
-This command sets up a MongoDB container that can be accessed from your local machine via port `3000`. It also configures an admin username and password for accessing the database. The container is part of a specified Docker network, which allows for easy communication with other containers in that network.
+- `mongo`: This is the name of the Docker image to use. In this case, it pulls the official MongoDB image from Docker Hub and runs it.
