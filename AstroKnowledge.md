@@ -1,4 +1,8 @@
- **hydration strategies** in Astro, they allow you to specify when and how your component should be rendered on the client side. Here's an explanation of each one:
+## [AstroJS Documentation](https://docs.astro.build/en/getting-started/)
+
+## My Learnings :
+ 
+ **Hydration Strategies** in Astro, they allow you to specify when and how your component should be rendered on the client side. Here's an explanation of each one:
 
 1. **`client:idle`**:
    - This hydration strategy waits until the browser is **idle** to load the component. This means the browser will prioritize rendering the static content first, and only when it has spare processing power (i.e., when the page is fully loaded and the user isn’t interacting), will it load your component. 
