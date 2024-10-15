@@ -197,6 +197,22 @@
 ## npm install react-responsive
 ### A React utility for building responsive web applications by conditionally rendering components based on media queries and screen sizes.
 
+# 43. @formkit/auto-animate:  
+## npm install @formkit/auto-animate
+### A zero-config, lightweight animation library for React that automatically adds smooth animations to elements as they enter, exit, or move within a list or DOM structure.
+
+# 44. emoji-picker-react:  
+## npm install emoji-picker-react
+### A simple and customizable emoji picker for React that allows users to browse and select emojis for their input fields, with support for categories, search, and skin tones.
+
+# 45. lottie-react:
+## npm install lottie-react
+### A React component for rendering animations using Lottie (JSON-based animations), allowing easy integration of high-quality, scalable animations without relying on GIFs.
+
+# 46. react-cookie:
+## npm install react-cookie
+### A library that simplifies handling cookies in React by providing hooks and higher-order components for reading, writing, and removing cookies on the client side.
+
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
 cowsay "Shardendu Mishra will get to Marry S____a and they'll live togther forever and ever!!"
