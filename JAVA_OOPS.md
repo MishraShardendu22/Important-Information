@@ -345,3 +345,37 @@ public class TestOverriding {
 ### Key Takeaways:
 - **Overloading** allows you to have multiple methods with the same name but different parameters in the **same class**.
 - **Overriding** allows a **subclass** to provide a specific implementation for a method already defined in the **parent class**.
+
+
+    Yes, the program works without `@Override`, but here's why you should still use it:
+
+    ### Why Does It Work Without `@Override`?
+    The `@Override` annotation is optional. When you create a method in the child class with the **same signature** (name, parameters, and return type) as a method in the parent class, Java automatically treats it as an overridden method. The annotation is not required for this behavior.
+
+    ### Why Use `@Override` Then?
+    1. **Error Checking**:  
+    If you accidentally make a mistake in the method signature (e.g., typo in the method name or parameters), Java won’t treat it as overriding. Without `@Override`, this mistake won't cause a compilation error—it would create a new method instead.  
+    Example:  
+    ```java
+    class Parent {
+        void display() {
+            System.out.println("Parent method");
+        }
+    }
+    class Child extends Parent { 
+        // Mistyped method name
+        void dispay() {
+            System.out.println("Child method");
+        }
+    }
+    ```
+    Without `@Override`, this would compile without errors, but the `display()` method in the parent wouldn't be overridden. Using `@Override` would catch this mistake.
+
+    2. **Code Readability**:  
+    The annotation explicitly indicates to other developers (and yourself) that the method is intentionally overriding a parent method.
+
+    3. **Consistency Across Code**:  
+    Using `@Override` makes it clear that a method's behavior comes from overriding, not just a similar-looking method in the child class.
+
+    ### Conclusion:
+    The program works because the Java compiler automatically determines overridden methods based on matching signatures. However, using `@Override` is considered a good practice for error checking and improving code clarity.
