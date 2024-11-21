@@ -1,6 +1,112 @@
-Object-Oriented Programming (OOP) is based on four key principles: **Encapsulation**, **Inheritance**, **Polymorphism**, and **Abstraction**. Below is an explanation of each principle with examples in Java.
+In Java, **classes**, **methods**, and **objects** are fundamental concepts that form the basis of object-oriented programming (OOP). Here's a detailed explanation of each:
 
 ---
+
+### **1. Classes**
+A **class** is a blueprint for creating objects. It defines the properties (attributes) and behaviors (methods) that the objects of the class will have.
+
+#### Characteristics:
+- It acts as a template or a blueprint.
+- It can contain fields (variables), methods, constructors, and sometimes nested classes.
+- A class must be instantiated to create objects.
+
+#### Syntax:
+```java
+class ClassName {
+    // fields (attributes)
+    int age;
+    String name;
+
+    // methods (behaviors)
+    void displayInfo() {
+        System.out.println("Name: " + name + ", Age: " + age);
+    }
+}
+```
+
+---
+
+### **2. Methods**
+A **method** is a block of code within a class that performs a specific task. Methods define the behavior of the objects of a class.
+
+#### Characteristics:
+- Methods can take inputs (parameters) and may return a value.
+- They enable code reuse by allowing operations to be defined once and called multiple times.
+- Java has special methods like `main()`, which acts as the entry point of the program, and constructors for initializing objects.
+
+#### Syntax:
+```java
+returnType methodName(parameters) {
+    // method body
+    return value; // optional, depending on returnType
+}
+```
+
+#### Example:
+```java
+class MathOperations {
+    int add(int a, int b) {
+        return a + b;
+    }
+}
+```
+
+---
+
+### **3. Objects**
+An **object** is an instance of a class. It represents a specific entity with the properties and behaviors defined by its class.
+
+#### Characteristics:
+- Objects are created from classes.
+- Each object can have its own unique values for the properties defined in the class.
+- Objects interact with one another by calling each other's methods.
+
+#### Creating an Object:
+```java
+ClassName objectName = new ClassName();
+```
+
+#### Example:
+```java
+class Person {
+    String name;
+    int age;
+
+    void sayHello() {
+        System.out.println("Hello, my name is " + name);
+    }
+}
+
+// Creating and using an object
+public class Main {
+    public static void main(String[] args) {
+        Person person1 = new Person(); // Create an object
+        person1.name = "Alice"; // Set attributes
+        person1.age = 25;
+
+        person1.sayHello(); // Call method
+    }
+}
+```
+
+**Output:**
+```
+Hello, my name is Alice
+```
+
+---
+
+### Summary
+- **Class**: Defines the structure and behavior of objects.
+- **Method**: A function defined inside a class that specifies actions objects can perform.
+- **Object**: A specific instance of a class with its own state and behavior.
+
+In essence:
+> A class is like a blueprint, methods are the instructions, and objects are the actual items built from that blueprint.
+
+------------------------------------------------------------------------------------------------------------------
+
+Object-Oriented Programming (OOP) is based on four key principles: **Encapsulation**, **Inheritance**, **Polymorphism**, and **Abstraction**. Below is an explanation of each principle with examples in Java.
 
 ### 1. **Encapsulation**
 Encapsulation is the bundling of data (fields) and methods that operate on the data into a single unit (class). It also involves restricting direct access to some components of an object, typically using private fields and public getter/setter methods.
