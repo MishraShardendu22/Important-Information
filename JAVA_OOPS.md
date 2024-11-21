@@ -379,3 +379,84 @@ public class TestOverriding {
 
     ### Conclusion:
     The program works because the Java compiler automatically determines overridden methods based on matching signatures. However, using `@Override` is considered a good practice for error checking and improving code clarity.
+
+------------------------------------------------------------------------------------------------------------------
+
+
+### **Final Keyword in Java (OOPs)**
+
+The `final` keyword in Java is a modifier that can be applied to variables, methods, and classes. It provides **restrictions** in the following ways:
+
+1. **Final Variables**: 
+   - When a variable is declared as `final`, its value cannot be changed after it is initialized. It becomes a constant.
+   - Example: `final int x = 10;`
+
+2. **Final Methods**: 
+   - A `final` method cannot be overridden by a subclass. This is useful when you want to enforce a specific behavior in a method.
+   - Example: `final void display() { ... }`
+
+3. **Final Classes**: 
+   - A class declared as `final` cannot be extended by other classes. This is useful for creating immutable classes or preventing inheritance.
+   - Example: `final class A { ... }`
+
+### Code Examples
+
+#### **Final Variable**
+```java
+class FinalVariableExample {
+    public static void main(String[] args) {
+        final int x = 100;  // Final variable
+        System.out.println("The value of x is: " + x);
+
+        // Uncommenting the following line will cause a compile-time error
+        // x = 200;  // Error: cannot assign a value to final variable 'x'
+    }
+}
+```
+
+#### **Final Method**
+```java
+class Parent {
+    final void display() {
+        System.out.println("This is a final method and cannot be overridden.");
+    }
+}
+
+class Child extends Parent {
+    // Uncommenting the following code will cause a compile-time error
+    // void display() {
+    //     System.out.println("Trying to override a final method."); // Error
+    // }
+}
+
+public class FinalMethodExample {
+    public static void main(String[] args) {
+        Child obj = new Child();
+        obj.display();
+    }
+}
+```
+
+#### **Final Class**
+```java
+final class FinalClass {
+    void show() {
+        System.out.println("This is a final class and cannot be extended.");
+    }
+}
+
+// Uncommenting the following code will cause a compile-time error
+// class SubClass extends FinalClass { }  // Error: Cannot inherit from final class
+
+public class FinalClassExample {
+    public static void main(String[] args) {
+        FinalClass obj = new FinalClass();
+        obj.show();
+    }
+}
+```
+
+### Use Cases of `final` Keyword
+- **Final Variables**: To define constants whose values should not change.
+- **Final Methods**: To prevent method overriding when you want a fixed implementation.
+- **Final Classes**: To prevent inheritance, which can help in creating immutable classes (e.g., `String` in Java is a `final` class).
