@@ -1,3 +1,180 @@
+Object-Oriented Programming (OOP) is based on four key principles: **Encapsulation**, **Inheritance**, **Polymorphism**, and **Abstraction**. Below is an explanation of each principle with examples in Java.
+
+---
+
+### 1. **Encapsulation**
+Encapsulation is the bundling of data (fields) and methods that operate on the data into a single unit (class). It also involves restricting direct access to some components of an object, typically using private fields and public getter/setter methods.
+
+**Example:**
+
+```java
+class Employee {
+    private String name; // Encapsulated field
+    private int age;
+
+    // Constructor
+    public Employee(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Getter and Setter for 'name'
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Getter and Setter for 'age'
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        if (age > 0) { // Basic validation
+            this.age = age;
+        } else {
+            System.out.println("Age must be positive.");
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Employee emp = new Employee("John", 30);
+        System.out.println("Name: " + emp.getName());
+        System.out.println("Age: " + emp.getAge());
+
+        emp.setAge(35); // Updating age
+        System.out.println("Updated Age: " + emp.getAge());
+    }
+}
+```
+
+---
+
+### 2. **Inheritance**
+Inheritance allows a class (child) to inherit fields and methods from another class (parent). This promotes code reuse and establishes a hierarchy.
+
+**Example:**
+
+```java
+class Animal {
+    void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+
+class Dog extends Animal { // Inheriting from Animal
+    void bark() {
+        System.out.println("The dog barks.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.eat(); // Inherited method
+        dog.bark(); // Dog's own method
+    }
+}
+```
+
+---
+
+### 3. **Polymorphism**
+Polymorphism allows methods to have multiple forms. This can be achieved via method overriding (runtime polymorphism) or method overloading (compile-time polymorphism).
+
+**Example: Method Overriding (Runtime Polymorphism):**
+
+```java
+class Animal {
+    void makeSound() {
+        System.out.println("Some generic animal sound.");
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    void makeSound() {
+        System.out.println("Meow.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal myAnimal = new Cat(); // Polymorphic reference
+        myAnimal.makeSound(); // Calls Cat's version of makeSound()
+    }
+}
+```
+
+**Example: Method Overloading (Compile-Time Polymorphism):**
+
+```java
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        System.out.println(calc.add(5, 10)); // Calls int version
+        System.out.println(calc.add(5.5, 10.5)); // Calls double version
+    }
+}
+```
+
+---
+
+### 4. **Abstraction**
+Abstraction involves hiding implementation details and exposing only the essential features of an object. It can be achieved through abstract classes or interfaces.
+
+**Example: Using an Abstract Class:**
+
+```java
+abstract class Shape {
+    abstract void draw(); // Abstract method
+}
+
+class Circle extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a circle.");
+    }
+}
+
+class Rectangle extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a rectangle.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Shape s1 = new Circle();
+        Shape s2 = new Rectangle();
+
+        s1.draw();
+        s2.draw();
+    }
+}
+```
+
+---
+
+
+------------------------------------------------------------------------------------------------------------------
+
 # Super Keyword In JAVA
 
 The **`super`** keyword in Java is used to refer to the immediate parent class of a subclass. It has three main uses:
