@@ -213,6 +213,14 @@
 ## npm install react-cookie
 ### A library that simplifies handling cookies in React by providing hooks and higher-order components for reading, writing, and removing cookies on the client side.
 
+# 47. fs:
+## npm install fs
+### The fs module in Node.js allows interacting with the file system. It provides methods to read, write, update, delete, and manage files and directories. The module is built into Node.js but can be installed explicitly if needed in certain environments.
+
+# 48. googleapis:
+## npm install googleapis
+### The googleapis library provides access to Google's APIs from Node.js applications. It supports authentication and seamless interaction with Google services like Google Drive, Gmail, Sheets, Calendar, and more.
+
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
 cowsay "Shardendu Mishra will get to Marry S____a and they'll live togther forever and ever!!"
