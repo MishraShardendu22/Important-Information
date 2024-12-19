@@ -221,6 +221,8 @@
 ## npm install googleapis
 ### The googleapis library provides access to Google's APIs from Node.js applications. It supports authentication and seamless interaction with Google services like Google Drive, Gmail, Sheets, Calendar, and more.
 
+Convex, svix etc 
+
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
 cowsay "Shardendu Mishra will get to Marry S____a and they'll live togther forever and ever!!"
