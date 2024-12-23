@@ -77,23 +77,3 @@
   ```bash
   python manage.py startapp myapp
   ```
-
-- **Create Migrations for Database Changes**:
-  ```bash
-  python manage.py makemigrations
-  ```
-
-- **Apply Migrations to Database**:
-  ```bash
-  python manage.py migrate
-  ```
-
-- **Create a Superuser for Admin Panel**:
-  ```bash
-  python manage.py createsuperuser
-  ```
-
-- **Run the Shell for Testing Models/Queries**:
-  ```bash
-  python manage.py shell
-  
