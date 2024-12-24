@@ -77,3 +77,18 @@
   ```bash
   python manage.py startapp myapp
   ```
+
+- **Create Migrations**
+   ```bash
+   python manage.py makemigrations
+   ```
+
+- **Apply Migrations**
+   ```bash
+   python manage.py migrate
+   ```
+
+- **Check Migration Status**
+   ```bash
+   python manage.py showmigrations
+   ```
