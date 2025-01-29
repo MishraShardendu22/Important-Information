@@ -14,7 +14,7 @@ go get go.mongodb.org/mongo-driver/mongo
 Air is Go's version of nodemon, enabling live reloading as you code. Useful for faster development cycles.
 
 ```go
-go get -u github.com/cosmtrek/air
+go get -u github.com/air-verse/air
 ```
 
 ### Dotenv (Environment Variables)
@@ -44,4 +44,9 @@ go get github.com/gofiber/logger/v2
 
 ```bash
 go mod tidy
+```
+
+Command To Clean module cache 
+```bash
+go clean -modcache
 ```
