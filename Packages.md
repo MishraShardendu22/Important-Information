@@ -1,3 +1,5 @@
+## Median and Capictor to make mobile apps and Vite PWA to make PWA
+
 # 0. NodeCache:
 ## npm install node-cache
 ### making otp
