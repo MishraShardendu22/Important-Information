@@ -93,6 +93,12 @@ func main() {
 
 # Equivalent of `nodemon` in Go
 
+Use Nodemon Itself
+```bash
+nodemon --exec go run main.go --ext go
+```
+
+
 ```bash
 go install github.com/air-verse/air@latest
 ```
