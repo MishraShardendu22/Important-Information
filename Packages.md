@@ -221,7 +221,37 @@
 ## npm install googleapis
 ### The googleapis library provides access to Google's APIs from Node.js applications. It supports authentication and seamless interaction with Google services like Google Drive, Gmail, Sheets, Calendar, and more.
 
-Convex, svix etc 
+# 49. Convex:
+## npm install convex
+### Convex: A backend as a service (BaaS) that simplifies serverless development by providing a real-time database, reactive queries, and seamless integration with frontend frameworks.
+
+# 50. Svix:
+## npm install svix
+### Svix: A webhook service and API that simplifies building, managing, and scaling webhooks. It offers features like automatic retries, rate limiting, and a dashboard for webhook management.
+
+# 51. Lemon Squeezy:
+## npm install lemon-squeezy
+### Lemon Squeezy: A library that simplifies integrating payment solutions for selling digital products, subscriptions, and services online.
+
+# 52. Sanity:
+## npm install @sanity/client
+### Sanity: A content platform that allows developers to build structured content and connect it to any front-end. It supports real-time collaboration and provides APIs for managing content.
+
+# 53. React Chart:
+## npm install react-chartjs-2 chart.js
+### React Chart: A React wrapper for Chart.js that allows for easy creation of interactive and customizable charts in your applications.
+
+# 54. React Map:
+## npm install react-map-gl
+### React Map: A React wrapper for Mapbox GL, enabling developers to create and customize interactive maps in their applications with advanced features like geocoding and markers.
+
+# 55. Sanity Plugins Markdown:
+## npm install @sanity/block-content-to-markdown
+### Sanity Plugins Markdown: A plugin for Sanity that converts block content to markdown, making it easier to handle structured content in markdown format.
+
+# 56. EasyMDE:
+## npm install easymde
+### EasyMDE: A simple and customizable markdown editor for web applications, providing a clean user interface and essential markdown features.
 
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
