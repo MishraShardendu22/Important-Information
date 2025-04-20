@@ -92,3 +92,11 @@
    ```bash
    python manage.py showmigrations
    ```
+- **Install uv (very fast written in rust)**
+   ```bash
+   pip install uv
+   ```
+- **Setup virtaul env using uv**
+   ```bash
+   uv venv
+   ```
