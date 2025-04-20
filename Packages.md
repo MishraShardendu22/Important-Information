@@ -257,9 +257,16 @@
 ## npm install easymde
 ### EasyMDE: A simple and customizable markdown editor for web applications, providing a clean user interface and essential markdown features.
 
-# 57. Typegen : 
+# 57. Typegen: 
 It's to include typescript in sanity project read docs
 
+# 58. Helmet: 
+## mpm i helmet
+### add meta deta in react application
+
+# 59. Concurrently
+## npm i concurrently
+### run server and client togther 
 
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
