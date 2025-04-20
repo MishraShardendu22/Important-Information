@@ -37,4 +37,7 @@ The official [Next.js changelog](https://github.com/vercel/next.js/releases) pro
 
 ----------------------
 
+![image](https://github.com/user-attachments/assets/2eeebb57-e12a-4086-b4b4-4ae0f063745d)
+![image](https://github.com/user-attachments/assets/70dc4362-4f7b-44a0-93b6-215fb633abe4)
 
+This has been fixed in react 19 using form and action
