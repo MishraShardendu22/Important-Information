@@ -1,3 +1,25 @@
+In Java, both `throw` and `throws` are used for handling exceptions, but they are used in different contexts:
+
+- **`throw`**: It is used to actually *throw* an exception in the code. It is followed by an instance of an exception. For example:
+
+  ```java
+  throw new IllegalArgumentException("Invalid input");
+  ```
+
+- **`throws`**: It is used in a method signature to indicate that the method might *throw* an exception. This is a way to declare exceptions that are not handled inside the method, and the calling method must deal with them. For example:
+
+  ```java
+  public void myMethod() throws IOException {
+      // some code that might throw IOException
+  }
+  ```
+
+In summary:
+- `throw` is used to throw an exception explicitly.
+- `throws` is used to declare exceptions that a method might throw.
+
+-----------------------------------------------------------------------------------------------------------------
+
 In Java, **classes**, **methods**, and **objects** are fundamental concepts that form the basis of object-oriented programming (OOP). Here's a detailed explanation of each:
 
 ---
