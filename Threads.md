@@ -21,4 +21,19 @@ With multithreading, the app can keep running smoothly without freezing each tim
   - **JavaScript**: JavaScript is single-threaded in environments like the browser. It uses an event loop to handle tasks asynchronously, but it doesn't have true multithreading. (Node.js does have worker threads, but they're not the same as multithreading in Java or Go.)
   - **PHP**: Traditionally, PHP is single-threaded and mainly used for server-side scripting where tasks are executed in a linear order.
 
-In summary, threads allow programs to run multiple tasks at once, making them more efficient and responsive, especially for time-consuming tasks.
+
+1. **Threads as Units of Execution**:
+   - Threads aren’t exactly hardware resources like RAM or CPU cores; instead, they're more like "paths" or "tracks" that a CPU can follow to complete a task. Threads allow a program to run tasks simultaneously (in parallel) or to switch quickly between tasks.
+   - So, when a task is assigned, it’s often broken down into multiple "subtasks" that can run on these threads, allowing the CPU to work on more than one part of the program at once.
+
+2. **Single-threaded (JavaScript)**:
+   - In JavaScript, programs are **single-threaded** in most environments, meaning there’s just one main path the CPU follows to complete all tasks.
+   - JavaScript gets around this limitation with **asynchronous** operations. When a task takes time (like waiting for data from a server), JavaScript can "pause" that task and move on to other code in the main thread, returning to the task only when it’s ready to complete. But, it’s still only using that one thread.
+
+3. **Multithreaded (Go)**:
+   - Go, on the other hand, can use multiple threads. This allows it to run many tasks at once on different CPU cores if available, making it very efficient. With **goroutines** (Go’s version of lightweight threads), a Go program can run many tasks in parallel across multiple CPU cores, making the best use of the hardware.
+
+**So in summary**:
+- A CPU completes tasks through **threads**.
+- **JavaScript** can only use one thread in most environments, but it "fakes" multitasking with asynchronous programming.
+- **Go** can use multiple threads, allowing it to perform true parallel execution, which is especially helpful for high-performance tasks.
