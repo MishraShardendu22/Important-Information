@@ -2,7 +2,6 @@
 
 ### What is an API?
 
-
 An API (Application Programming Interface) allows communication between different software systems.
 
 ## Types of APIs
