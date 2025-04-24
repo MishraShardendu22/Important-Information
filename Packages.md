@@ -184,6 +184,19 @@
 ## npm install --legacy-peer-deps react-router-dom
 ### A complete routing solution for React that helps manage navigation and view rendering based on URL paths.
 
+# 40. three:
+## npm install three
+### A popular JavaScript 3D library that allows for creating and displaying animated 3D computer graphics in a web browser using WebGL.
+
+# 41. leva:
+## npm install leva
+### A simple, fast, and beautiful UI panel for tweaking React components and 3D scene parameters dynamically.
+
+
+# 42. react-responsive:
+## npm install react-responsive
+### A React utility for building responsive web applications by conditionally rendering components based on media queries and screen sizes.
+
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
 cowsay "Shardendu Mishra will get to Marry S____a and they'll live togther forever and ever!!"
