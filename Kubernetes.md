@@ -6,7 +6,6 @@ VirtualBox is a **hypervisor** that allows you to run virtual machines (VMs) on 
   
 - By default, on systems that don’t have Docker as a container runtime, Minikube uses **VirtualBox** to create a VM that runs the Kubernetes cluster inside it. This way, it simulates a real Kubernetes cluster, but locally on your machine.
 
-In your case, since **VirtualBox requires virtualization** (VT-x/AMD-V) to be enabled in your BIOS, Minikube failed to create the VM using VirtualBox.
 
 ### 2. **What is Minikube?**
 
