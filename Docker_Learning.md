@@ -3,17 +3,6 @@
 ### Docker is a platform that lets you package an application and its dependencies into a "container," which can run consistently on any system. 
 ### Think of it like a virtual box that has everything the app needs to run, so no matter where you put the box (your laptop, a server, etc.), the app works the same way.
 
-
-
-# Breakdown of : 
-```bash
-docker run --name postgres-container -e POSTGRES_PASSWORD=yourpassword -d -p 3001:5432 postgres:14
-```
-
-```bash
-docker run --name mongo-container -d -p 3002:27017 mongo:6.0
-```
-
 ### PostgreSQL
 
 To run a PostgreSQL container:
