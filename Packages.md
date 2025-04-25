@@ -148,6 +148,10 @@
 ## npm install @apollo/client
 ### Apollo Client: A state management library for interacting with GraphQL APIs, handling data fetching, caching, and UI updates efficiently in React apps.
 
+# 32. Bootstrap:
+## npm install bootstrap
+### Bootstrap: A popular CSS framework for building responsive and mobile-first websites, providing pre-built components, utilities, and styles to streamline web development.
+
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
 cowsay "Shardendu Mishra will get to Marry S____a and they'll live togther forever and ever!!"
