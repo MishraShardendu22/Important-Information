@@ -68,9 +68,13 @@
 ### Nodemailer: A module for sending emails from Node.js applications.
 
 
-# 15. react-hot-toast:
+# 15. a.) react-hot-toast :
 ## npm i react-hot-toast
 ### React-hot-toast: A library for displaying customizable and accessible toast notifications in React applications.
+
+# 15. b.) react-toastify :
+## npm i react-toastify
+### React Toastify: React library that provides easy-to-use, customizable toast notifications with minimal setup.
 
 
 # 16. zod:
