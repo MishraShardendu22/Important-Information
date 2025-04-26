@@ -132,6 +132,9 @@
 ## npm i resend
 ### Resend API provides features like customizable email templates, user management, and simplified email delivery, typically used in applications that require programmatic email sending.
 
+# 28. GraphQL with Express:
+## npm install graphql express-graphql
+### GraphQL is a query language for APIs that allows clients to request only the data they need. `express-graphql` is a middleware that integrates GraphQL with Express, enabling you to create a GraphQL server easily and handle queries and mutations in your application.
 
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
