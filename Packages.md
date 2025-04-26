@@ -94,13 +94,9 @@
 ## npm install @clerk/nextjs 
 ### Clerk is an authentication solution that simplifies user management and authentication for web applications built with Next.js. It provides easy integration with various login methods (like email and social logins) and offers features such as user profiles, sessions, and security measures, making it ideal for building secure applications quickly.
 
-# 24. Prisma
+# 24. Prisma (has other commands like adn tools like migrate and prisma client cehck docs)
 ## npm install prisma typescript ts-node @types/node --save-dev
 ### Prisma is an open-source ORM that makes database access easy and type-safe. It provides a simple and intuitive API for interacting with your database, supporting various databases like PostgreSQL, MySQL, and SQLite. With Prisma, you can generate migrations and manage your database schema efficiently.
-
-
-# Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth sehooks-ts embla-carousel-autoplay zustand socket.io @clerk/nextjs prisma typescript ts-node @types/node --save-dev daisyui
 
 
 # For Fun - ( lol )
