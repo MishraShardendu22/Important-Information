@@ -1,4 +1,5 @@
 ## Project Name - NextJS Auth
+
 ## Suggestions - 
 
 - [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) <input id=​"confirm_password" class=​"block border text-violet-600 rounded-2xl border-gray-300 dark:​border-gray-600 w-full p-4 mb-4 placeholder-orange-400 dark:​placeholder-orange-400 focus:​border-blue-500 dark:​focus:​border-blue-400 focus:​outline-none transition duration-500" placeholder=​"Confirm Password" type=​"password" value=​"12345678" name=​"confirm_password">​
