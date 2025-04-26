@@ -3,6 +3,7 @@
 ## React Learnings
 Here’s the corrected version:
 
+
 ---
 
 `useState` is a React hook that manages **UI updates**. It is primarily used to show real-time updates of variables injected into the front-end.
