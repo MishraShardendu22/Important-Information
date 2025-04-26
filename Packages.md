@@ -98,6 +98,15 @@
 ## npm install prisma typescript ts-node @types/node --save-dev
 ### Prisma is an open-source ORM that makes database access easy and type-safe. It provides a simple and intuitive API for interacting with your database, supporting various databases like PostgreSQL, MySQL, and SQLite. With Prisma, you can generate migrations and manage your database schema efficiently.
 
+# 25. Day.js
+## npm install dayjs
+### Day.js is a minimalist JavaScript library for parsing, validating, manipulating, and displaying dates and times in a modern way. It's fast, with a small footprint, and provides an API similar to Moment.js. Ideal for projects that need lightweight date manipulation without compromising functionality.
+
+
+# 26. filesize.js
+## npm install filesize 
+### filesize.js is a JavaScript library that converts file sizes to human-readable formats. It handles various units like bytes, kilobytes, megabytes, etc., and offers customization options such as rounding and unit output. It's perfect for displaying file sizes in a clear, concise way in applications. 
+
 
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
