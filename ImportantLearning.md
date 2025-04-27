@@ -193,7 +193,7 @@ In React, prefetching behavior is not built-in like in Next.js, but you can achi
 Implementing prefetching can significantly enhance the performance and user experience of your web applications.
 
 
-# Question -) In backend the middle-ware needs req, res, error, and next (error is optional) here we only give request, why ?
+# Question : In backend the middle-ware needs req, res, error, and next (error is optional) here we only give request, why ?
 
 You're correct that in some backend frameworks, like Express.js, middleware functions typically take `req`, `res`, `next`, and sometimes `err` for error handling. In Express, middleware functions generally look like this:
 
