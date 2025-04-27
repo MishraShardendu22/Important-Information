@@ -75,7 +75,7 @@
 ### NextAuth.js is an open-source authentication library designed for Next.js applications. It simplifies adding authentication and authorization to your app by supporting multiple authentication providers and strategies.
 
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth sehooks-ts
 
 
 
