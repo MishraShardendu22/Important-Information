@@ -62,12 +62,16 @@
 ## npm i zod
 ### Zod is a TypeScript-first schema declaration and validation library. It allows you to define schemas for your data and automatically perform validation and type inference based on those schemas.
 
-# 15. Resend Email:
+# 16. Resend Email:
 ## npm i resend
 ### Resend API provides features like customizable email templates, user management, and simplified email delivery, typically used in applications that require programmatic email sending.
 
+# 17. Next Auth.JS:
+## npm i next-auth
+### NextAuth.js is an open-source authentication library designed for Next.js applications. It simplifies adding authentication and authorization to your app by supporting multiple authentication providers and strategies.
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth
 
 
 
