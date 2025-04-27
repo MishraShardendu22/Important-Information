@@ -72,14 +72,14 @@
 
 # 18. useHook.ts :
 ## npm install usehooks-ts
-### NextAuth.js is an open-source authentication library designed for Next.js applications. It simplifies adding authentication and authorization to your app by supporting multiple authentication providers and strategies.
+### useHook.ts is a TypeScript file where custom React hooks are defined for managing specific state or logic in a reusable way across components. By installing the usehooks-ts library, commonly used hooks like useToggle, useLocalStorage, and others are made easily accessible, allowing for more efficient state management and UI updates within the Next.js app.
 
 # 19. embla-carousel-autoplay :
 ## npm install embla-carousel-autoplay
 ### embla-carousel-autoplay is a plugin for Embla Carousel that adds autoplay functionality
 
 # 20. socket.io :
-## npm install socket.io
+## npm install socket.io 
 ### Socket.IO is a JavaScript library used for real-time, bidirectional communication between clients and servers. It works over WebSockets but provides fallbacks for older browsers. It is widely used in building chat applications, live notifications, and real-time collaboration features.
 
 # 21. Zustand :
@@ -88,7 +88,8 @@
 
 
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth sehooks-ts embla-carousel-autoplay
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth sehooks-ts embla-carousel-autoplay zustand socket.io
+
 
 # For Fun - ( lol )
 ## npm i cowsay (maybe npm i -g cowsay)
