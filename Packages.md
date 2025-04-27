@@ -82,6 +82,11 @@
 ## npm install socket.io
 ### Socket.IO is a JavaScript library used for real-time, bidirectional communication between clients and servers. It works over WebSockets but provides fallbacks for older browsers. It is widely used in building chat applications, live notifications, and real-time collaboration features.
 
+# 21. Zustand :
+## npm install zustand
+### Zustand is a small, fast, and scalable state management library for React applications. It allows you to manage global and local state without the boilerplate of other state management solutions like Redux. Zustand uses simple and intuitive API, supporting both primitive and complex states with minimal re-renders, and is highly flexible, allowing for features like persistence and middleware integration. It's ideal when you need a lightweight and easy-to-use alternative for state management.
+
+
 # Single command to install all:
 ## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer react-hot-toast zod resend next-auth sehooks-ts embla-carousel-autoplay
 
