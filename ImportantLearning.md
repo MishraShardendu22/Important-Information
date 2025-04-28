@@ -152,12 +152,11 @@ In React, prefetching behavior is not built-in like in Next.js, but you can achi
        </Suspense>
      );
    }
-```
 
 2. **React Query**:
    - Use libraries like [React Query](https://react-query.tanstack.com/) to manage and prefetch data.
 
-   ```jsx
+    ```jsx
    import { useQuery, useQueryClient } from 'react-query';
 
    function fetchAboutPageData() {
@@ -174,7 +173,7 @@ In React, prefetching behavior is not built-in like in Next.js, but you can achi
 
      return <div>Your App</div>;
    }
-```
+    ```
 
 ### Documentation
 
