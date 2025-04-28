@@ -31,5 +31,8 @@
 # 4. jwt:
 ## npm i jsonwebtoken
 
+# 4. multer:
+## npm i multer
+
 # Single command to install all:
 ## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt jsonwebtoken
