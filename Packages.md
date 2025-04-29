@@ -22,5 +22,8 @@
 # 4. Cors:
 ## npm i cors
 
+# 4. Cors:
+## npm i mongoose-aggregate-paginate-v2
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2
