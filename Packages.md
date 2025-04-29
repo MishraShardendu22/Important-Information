@@ -28,5 +28,8 @@
 # 4. bcrypt:
 ## npm i bcrypt
 
+# 4. jwt:
+## npm i jsonwebtoken
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt jsonwebtoken
