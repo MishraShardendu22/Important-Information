@@ -40,4 +40,4 @@
 npm i nodemailer react-hot-toast
 
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt jsonwebtoken multer cloudinary
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser cors mongoose-aggregate-paginate-v2 bcrypt bcryptjs jsonwebtoken multer cloudinary nodemailer
