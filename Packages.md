@@ -16,5 +16,8 @@
 # 4. Dotenv:
 ## npm install dotenv
 
+# 4. Cookies:
+## npm i cookie-parser
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier dotenv
+## npm install express axios mongoose nodemon prettier dotenv cookie-parser
