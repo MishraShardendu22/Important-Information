@@ -13,5 +13,8 @@
 # 4. Prettier:
 ## npm install prettier
 
+# 4. Dotenv:
+## npm install dotenv
+
 # Single command to install all:
-## npm install express axios mongoose nodemon prettier
+## npm install express axios mongoose nodemon prettier dotenv
