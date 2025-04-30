@@ -1,0 +1,35 @@
+# WebSocket vs. Socket.IO
+
+## WebSocket
+
+- **What it is**: A way for web browsers and servers to talk to each other in real time.
+- **Standard**: It's part of the HTML5 specification.
+- **Browser Support**: Works on most modern browsers.
+- **Connection**: Uses only WebSocket for communication.
+- **API**: Has a simple interface to send and receive messages.
+- **Reconnection**: Doesn’t reconnect automatically; you have to code it.
+- **Data Format**: Can send text and binary data.
+- **When to use**: Great for chat apps, live notifications, and games.
+
+## Socket.IO
+
+- **What it is**: A library that makes using WebSocket easier and better.
+- **Standard**: Not a standard; it builds on WebSocket.
+- **Browser Support**: Works with different methods if WebSocket isn't available.
+- **Connection**: Can use other methods if WebSocket fails.
+- **API**: Has a lot of extra features, like rooms and namespaces.
+- **Reconnection**: Automatically reconnects if the connection drops.
+- **Data Format**: Works well with JSON, making it easy to send complex data.
+- **When to use**: Good for real-time apps needing extra features, like chat and collaboration tools.
+
+## Summary Table
+
+| Feature           | WebSocket                     | Socket.IO                         |
+|-------------------|-------------------------------|-----------------------------------|
+| Type              | Low-level protocol            | Library built on WebSocket        |
+| Compatibility     | Depends on browser            | Works with multiple methods       |
+| API               | Simple                        | More features                     |
+| Reconnection      | Needs manual code             | Automatic                         |
+| Data Format       | Text and binary               | JSON objects                      |
+| Use Case          | Real-time apps                | Feature-rich real-time apps       |
+
