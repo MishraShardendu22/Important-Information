@@ -7,5 +7,8 @@
 # 3. Mongoose:
 ## npm install mongoose
 
+# 4. Nodemon:
+## npm install nodemon
+
 # Single command to install all:
-## npm install express axios mongoose                                  
+## npm install express axios mongoose nodemon
